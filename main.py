@@ -79,7 +79,7 @@ for i in range(15, 150):
                     tbd = line[0:36]
                     #print("Unknown data/TBD: ", tbd)
             if lineCounter == 3:
-                    cityStateZip = line[1:27]
+                    recordDict['cityStateZip'] = line[1:27]
                     #print("City, State, Zip: ", cityStateZip)
                     pens = line[27:33]
                     #print("Pens: ", pens)
