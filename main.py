@@ -11,8 +11,8 @@ from tkinter import *
 from tkinter import ttk
 import openpyxl as op
 
-# sourceFile = fd.askopenfilename()
-sourceFile = r'C:/Users/dylewskc/OneDrive - Automatic Data Processing Inc/Documents/Project Work/Conversions/TSG/Data/Employee Level/GGF Initial Data p1.txt'
+sourceFile = fd.askopenfilename()
+#sourceFile = r'C:/Users/dylewskc/OneDrive - Automatic Data Processing Inc/Documents/Project Work/Conversions/TSG/Data/Employee Level/GGF Initial Data p1.txt'
 print(sourceFile)
 
 lines = []
